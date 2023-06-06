@@ -136,7 +136,12 @@
                 </configuration>
               </execution>
             </executions>
-          </plugin>
+    	</plugin>
+    <plugin>
+        <groupId>org.eclipse.jkube</groupId>1
+        <artifactId>openshift-maven-plugin</artifactId>
+        <version>1.2.0</version>
+      </plugin>
         </plugins>
       </build>
       <properties>
